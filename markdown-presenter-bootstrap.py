@@ -12,8 +12,8 @@ from zipfile import ZipFile
 import os
 
 tagname = "1.3.1"
-zipname = "markdown-presenter-" + tagname + ".zip"
-zippath = "./" + zipname
+zipname = f"markdown-presenter-{tagname}.zip"
+zippath = f"./{zipname}"
 url = "https://github.com/jsakamoto/MarkdownPresenter/releases/download/v." + tagname + "/" + zipname
 
 # download zip archive of Markdown Presenter.
